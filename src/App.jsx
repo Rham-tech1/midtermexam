@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 
-// Display Component Function
+
 function Display({ value }) {
   return (
     <input
@@ -13,7 +13,7 @@ function Display({ value }) {
   );
 }
 
-// Button Component Function
+
 function Button({ label, className = "", onClick }) {
   return (
     <button className={className} onClick={onClick}>
@@ -58,10 +58,10 @@ export default function App() {
         setDisplayValue("0 - Having A Strong Work Ethic");
         break;
       case "NAME":
-        setDisplayValue("Abrham Beaver Layug"); // Replace with your actual full name
+        setDisplayValue("Abrham Beaver Layug"); 
         break;
       case "SUBJ":
-        setDisplayValue("C-PCIT9"); // Replace with your actual subject code
+        setDisplayValue("C-PCIT9"); 
         break;
       default:
         break;
